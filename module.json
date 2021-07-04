@@ -1,0 +1,95 @@
+{   
+   "name": "atla-secondage",
+   "title": "Avatar: The Second Age Genesys Enhancements",
+   "description": "Earth, Air, Fire and Water - master the elements and save the world using the FFG-Genesys system",
+   "author": "LeeDurant",
+   "version": "0.1",
+   "minimumCoreVersion": "0.8.8",
+   "compatibleCoreVersion":"0.8.8",
+   "dependencies": [
+        {
+            "name": "starwarsffg",
+            "type": "system",
+            "manifest": "https://raw.githubusercontent.com/StarWarsFoundryVTT/StarWarsFFG/master/system.json"
+        }
+    ],
+   "packs": [
+    {
+      "name": "earth",
+      "label": "Book of Earth",
+      "path": "packs/earth.db",
+      "entity": "Actor",
+      "module": "atla-secondage"
+    },
+	{
+      "name": "air",
+      "label": "Book of Air",
+      "path": "packs/air.db",
+      "entity": "Actor",
+      "module": "atla-secondage"
+    },
+	{
+      "name": "fire",
+      "label": "Book of Fire",
+      "path": "packs/fire.db",
+      "entity": "Actor",
+      "module": "atla-secondage"
+    },
+	{
+      "name": "water",
+      "label": "Book of Water",
+      "path": "packs/water.db",
+      "entity": "Actor",
+      "module": "atla-secondage"
+    },
+	{
+      "name": "weapons",
+      "label": "Book of Combat",
+      "path": "packs/weapons.db",
+      "entity": "Item",
+      "module": "atla-secondage"
+    },
+	{
+      "name": "armor",
+      "label": "Book of Apparel",
+      "path": "packs/armor.db",
+      "entity": "Item",
+      "module": "atla-secondage"
+    },
+	{
+      "name": "gear",
+      "label": "Book of Many Things",
+      "path": "packs/gear.db",
+      "entity": "Item",
+      "module": "atla-secondage"
+    },
+	{
+      "name": "vehicles",
+      "label": "Book of Travel",
+      "path": "packs/vehicles.db",
+      "entity": "Actor",
+      "module": "atla-secondage"
+    },
+	{
+      "name": "atla-macros",
+      "label": "Book of Macros",
+      "module": "atla-secondage",
+      "path": "packs/communitymacros.db",
+      "entity": "Macro"
+    },
+    {
+	   "name": "rolltables",
+       "label": "Book of Rolltables",
+       "path": "packs/rolltables.db",
+       "module": "atla-secondage",
+       "entity": "RollTable"
+    },
+    {
+      "name": "scenes",
+      "label": "Avatar Scenes",
+      "path": "packs/scenes.db",
+      "entity": "Scene",
+      "module": "atla-secondage"
+    }
+  ]
+ }
